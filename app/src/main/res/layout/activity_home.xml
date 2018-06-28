@@ -7,5 +7,55 @@
     android:background="@drawable/bg"
     tools:context=".Home">
 
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="211dp"
+        android:layout_marginStart="38dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/contoh" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imageButton4"
+        android:layout_marginEnd="46dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/contoh2" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/imageButton4"
+        android:layout_marginBottom="44dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/contoh3" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignStart="@+id/imageButton5"
+        android:layout_alignTop="@+id/imageButton6"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/contoh4" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="106dp"
+        android:text="PENCARIAN"
+        android:inputType="text"
+        android:maxLines="1" />
 
 </RelativeLayout>
